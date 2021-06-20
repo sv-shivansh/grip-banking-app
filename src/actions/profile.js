@@ -55,7 +55,7 @@ export const transfer = ({from, to, amount}) => async dispatch => {
             type: TRANSFER_SUCCESS,
             payload: res.data
         })
-        dispatch(setAlert("Transaction Successful", 'danger'))
+        dispatch(setAlert("Transaction Successful", 'success'))
 
     }catch(error){
         const errors = error.response.data.errors;

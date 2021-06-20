@@ -44,7 +44,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="copyright-text">
-          All Copyrights Reserved 2021 &copy;
+          All Rights Reserved 2021 &copy;
         </div>
       </div>
     </footer>

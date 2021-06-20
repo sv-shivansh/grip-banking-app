@@ -42,4 +42,5 @@ const accountSchema = new Schema({
     }
 })
 
+// eslint-disable-next-line no-undef
 module.exports = Detail = mongoose.model('account-detail', accountSchema)
